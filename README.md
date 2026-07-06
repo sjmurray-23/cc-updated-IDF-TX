@@ -55,7 +55,7 @@ The folders for saving and used throughout the project workflow are in the proje
 ## Requirements
 See py-requirements.txt for the dependent python packages.
 
-See r-requirements.txt for the dependent R packages.
+See r-requirements.R for the dependent R packages.
 
 ## Acknowledgements
 If using this github repository please site the following publication
