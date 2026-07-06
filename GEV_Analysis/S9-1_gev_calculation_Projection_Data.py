@@ -47,7 +47,7 @@ def empirical_return_level(data):
 #### Direction file. Populate with the directory address
 # get current working directory
 cwd_path = os.getcwd()
-dir = os.path.join(cwd_path, "ExtremeValue_Analysis")
+dir = os.path.join(cwd_path, "GEV_Analysis")
 dir_24master_biasCorrected = os.path.join(cwd_path,
                                           "GEV_Analysis/Station_24HR_Maximums/Station_biascorr_24HRmax")
 dir_12master_biasCorrected = os.path.join(cwd_path,
@@ -314,7 +314,6 @@ all_missing = 0
 for si in range(len(merged_StationList)):
     print(si, ":", len(merged_StationList))
     station = merged_StationList[si]
-    # file_paths = glob(os.path.join(dir_master_biasCorrected, station + "_bias_corr_24HRmax_df.csv"))
     file_paths = glob(os.path.join(dir_6master_biasCorrected, station + "_bias_corr_6HRmax_df.csv"))
 
     if len(file_paths) == 0:
