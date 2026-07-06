@@ -1,0 +1,19 @@
+NOAA NCEI ATLAS 14 Precipitation Frequency Estimates
+Precipitation Frequency Data Server:
+https://hdsc.nws.noaa.gov/pfds/index.html
+
+Data accessed from this database is used to calculate the Change Factors
+
+Downloadable data in a raster GIS compatible format is accessible online via https://hdsc.nws.noaa.gov/pfds/pfds_gis.html
+For this project the following were accessed:
+Volume: 11. Texas
+Type: Precipitation frequency estimates; Upper confidence limits; Lower confidence limits
+Series: Annual maximum series
+Average recurrence interval: 10-year; 100-year
+Duration: 6-hour; 12-hour; 24-hour
+
+NCEI station locations data downloadable at https://hdsc.nws.noaa.gov/pfds/pfds_map_cont.html?bkmrk=tx under link for list of TX stations:
+https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fhdsc.nws.noaa.gov%2Fpub%2Fhdsc%2Fdata%2Fxlslists%2Ftx.xls&wdOrigin=BROWSELINK
+
+
+
