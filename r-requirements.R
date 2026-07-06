@@ -1,0 +1,13 @@
+# Dependencies for R analysis
+install.packages("renv")
+renv::install("hrbrthemes", version = "0.8.7", dependencies = TRUE)
+renv::install("ranger", version = "0.17.0", dependencies = TRUE)
+renv::install("elasticnet", version = "1.3", dependencies = TRUE)
+renv::install("iml", version = "0.11.4", dependencies = TRUE)
+renv::install("ICEbox", version = "1.1.5", dependencies = TRUE)
+renv::install("tidyverse", version = "2.0.0", dependencies = TRUE)
+renv::install("ggplot2", version = "3.5.1", dependencies = TRUE)
+renv::install("gridExtra", version = "2.3", dependencies = TRUE)
+renv::install("caret", version = "7.0-1", dependencies = TRUE)
+renv::install("lime", version = "0.5.3", dependencies = TRUE)
+renv::install("pdp", version = "0.8.2", dependencies = TRUE)

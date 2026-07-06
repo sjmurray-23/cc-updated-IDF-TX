@@ -1,0 +1,16 @@
+# This file may be used to create an environment using:
+# python==3.11.7
+# platform: win-64
+dask==2025.1.0
+matplotlib==3.8.4
+numpy==1.26.4
+pandas==2.2.2
+python_cmethods==2.3.0
+requests==2.31.0
+rioxarray==0.17.0
+scikit-learn==1.5.1
+scipy==1.13.0
+seaborn==0.13.2
+six==1.16.0
+xarray==2024.5.0
+xclim==0.54.0
