@@ -25,7 +25,7 @@ This project contains several components and is performed in the following order
 * **S9: Extreme Distribution Fitting**
 * **S10: Change Factor and Coefficient of Variance Calculation**
 * **S11: Prepare Results for Mapping**
-* **S12: Perform Interpolation in ArcGIS**
+* **S12: Perform Interpolation and Overlay in ArcGIS**
 
 ## Function
 
@@ -40,10 +40,10 @@ This project contains several components and is performed in the following order
 | S7_Temporal_Disaggregation_train_pred.R     | Train and apply temporal disaggregation of 24-hour to 12-hour and 6-hour using random forest                                                  |
 | S8_Annual_maxima_generation.py              | Extreme value analysis to calculate annual maximas for 24-hour, 12-hour, and 6-hour precipitation                                             |
 | S9-1_gev_calculation_Projection_Data.py     | Compute extreme distribution using Generalized Extreme Value (GEV) and Gumble for extreme precipitation projected datasets (24-, 12-, 6-hour) |
-| S9-2_gev_calculation_observational_Data.py  | Calculate the extreme values using Generalized Extreme Value (GEV) and Gumble for extreme precipitation observation datasets (24-hour)        |
-| S10_Prepare_results_for_mapping.py          | Prepare the IDFs, CFs, and CVs results for interpolation and mapping                                                                          |
-| S11_Calculate_CF_CV.py                      | Calculate the change factors and coefficient of variance on change factors on the 24-hour dataset                                             |
-
+| S9-2_gev_calculation_observational_Data.py  | Calculate the extreme values using Generalized Extreme Value (GEV) and Gumble for extreme precipitation observation datasets (24-hour), and CF|
+| S10_Prepare_results_for_mapping.py          | Prepare the IDFs and CFs results for interpolation and mapping                                                                                |
+| S11_Calculate_CVonCF.py                     | Calculate coefficient of variation of change factors                                                                                          |
+| S12_IDF_ArcGIS_Pro_Analyses.ipnyb           | Perform interpolation on all results, and spatially constrained multivar cluster and overlay analyses on CFs and CVs in ArcGIS Pro            |
 
 ## Structure
 The source data is available in the data folder.
